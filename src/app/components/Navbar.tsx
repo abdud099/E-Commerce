@@ -58,7 +58,7 @@ export default function Navbar() {
               ) : (
                 <Link
                   href={link.href}
-                  className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-primary"
+                  className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-primary hover:underline hover:decoration-2 hover:underline-offset-4 hover:duration-200"
                 >
                   {link.name}
                 </Link>
